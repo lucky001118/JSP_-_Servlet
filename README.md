@@ -1,7 +1,3 @@
-Here’s a sample `README.md` file for your JSP and Servlet Git repository:  
-
----
-
 # JSP and Servlet Learning Repository  
 
 This repository contains code and projects developed during my learning journey with **Java Server Pages (JSP)** and **Servlets**. These files demonstrate fundamental and advanced concepts of web development using Java-based technologies.  
@@ -40,7 +36,7 @@ To run the projects, you will need:
 ## How to Use  
 1. Clone this repository:  
    ```bash  
-   git clone https://github.com/your-username/jsp-servlet-learning.git  
+   git clone https://github.com/your-username/JSP_&_Servlet.git  
    ```  
 2. Import the project into your IDE.  
 3. Configure the database connection in the project files (usually in `dbconfig` or similar files).  
@@ -59,8 +55,8 @@ This project is for educational purposes and is open for learning and reference.
 ## Contact  
 If you have any questions or suggestions, feel free to reach out:  
 **Lucky Manikpur**  
-- Email: [Your Email Address]  
-- LinkedIn: [Your LinkedIn Profile]  
+- Email: manikpurilucky218@gmail.com  
+- LinkedIn: [Lucky Manikpuri]  https://www.linkedin.com/in/lucky-manikpuri-49804927b/
 
 ---
 
