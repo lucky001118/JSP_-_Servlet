@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    <!--making landing page of our servlet using the welcome-list-file tag-->
+    <welcome-file-list>
+        <welcome-file>home.html </welcome-file>
+    </welcome-file-list>
+    <!--Servlet decretion-->
+    <servlet>
+        <servlet-name>first</servlet-name>
+        <servlet-class> com.servlates.FirstServlate</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>second</servlet-name>
+        <servlet-class> com.servlates.Second</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HttpClass</servlet-name>
+        <servlet-class> com.servlates.HttpClass</servlet-class>
+    </servlet>
+    <!--Servlet decleration of the RegisterServlet class-->
+    <servlet>
+        <servlet-name>register</servlet-name>
+        <servlet-class> com.servlates.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>forward</servlet-name>
+        <servlet-class> com.servlates.DispatcherForward</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>S1</servlet-name>
+        <servlet-class>com.servlates.S1</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>S2</servlet-name>
+        <servlet-class>com.servlates.S2</servlet-class>
+    </servlet>
+    <!--Mapping-->
+    <servlet>
+        <servlet-name>CockieS1</servlet-name>
+        <servlet-class>com.servlates.CockieS1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>first</servlet-name>
+        <url-pattern>/web </url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>second</servlet-name>
+        <url-pattern>/second </url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HttpClass</servlet-name>
+        <url-pattern>/HttpClass </url-pattern>
+    </servlet-mapping>
+    <!--url mapping on RegisterServlet class-->
+    <servlet-mapping>
+        <servlet-name>register</servlet-name>
+        <url-pattern>/RegisterServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>forward</servlet-name>
+        <url-pattern>/DispatcherForward</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>S1</servlet-name>
+        <url-pattern>/s1</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>S2</servlet-name>
+        <url-pattern>/s2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CockieS1</servlet-name>
+        <url-pattern>/cockieS1</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
